@@ -79,7 +79,7 @@ export default function Home() {
       <div className="block w-full relative">
         <div className="flex justify-between items-center max-w-full mx-auto p-[10px]">
           <div>
-            <a href="/" className="p-2 font-bold text-[20px] flex items-center">
+            <a  className="p-2 font-bold text-[20px] flex items-center">
               <svg
                 viewBox="0 0 64 36"
                 xmlns="http://www.w3.org/2000/svg"
