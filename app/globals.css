@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 :root {
@@ -24,3 +25,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.pdf-page canvas {
+  @apply w-full object-contain transition-transform duration-150 ease-in-out;
+  transform: rotate(720deg);
+}
+
